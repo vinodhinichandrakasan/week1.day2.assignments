@@ -20,9 +20,9 @@ public class MissingElementInAnArray {
 		for (int i = 1; i <len; i++) {
 			
 			
-			if(i!=arr[i]-1)
+			if(i!=arr[i-1])
 			{
-				int num=i+1;
+				int num=i;
 				System.out.println("missing num :"+num);
 				break;
 			
